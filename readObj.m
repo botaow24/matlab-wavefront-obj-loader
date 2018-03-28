@@ -1,4 +1,19 @@
 function obj = readObj(fname)
+%obj = readObj(fname)
+% % fname  - file name
+% % obj    - output mesh
+%
+% obj.v  - vertices positions
+% obj.vt  - uv coordinates
+% obj.vn  - normals
+% 
+% obj.f   - faces
+% obj.f.v   - vertex indices for obj.v 
+% obj.f.vt  - vertex indices for obj.vt 
+% obj.f.vt  - vertex indices for obj.vn
+% 
+% 
+
 vn = 1;
 v_h = [];
 vtn = 1;
